@@ -1,0 +1,26 @@
+# Claude skill (kept locally / installed globally, not part of this repo)
+drawing-to-cad/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Editors / OS
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
+Thumbs.db
+
+# Local secrets / settings
+.env
+.claude/settings.local.json
+
+# Scratch renders (if ever written into the project)
+*.tmp
+render/
